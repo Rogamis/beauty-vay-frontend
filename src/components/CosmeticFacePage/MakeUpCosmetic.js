@@ -24,7 +24,7 @@ import prod17 from "../../images/products/prod17.jpg";
 
 export default function MakeUpCosmetic() {
   return (
-    <Box sx={{ margin: 18 }}>
+    <Box sx={{ margin: 5 }}>
       <Grid
         container
         direction="raw"
@@ -32,7 +32,7 @@ export default function MakeUpCosmetic() {
         alignItems="center"
         alignContent="stretch"
       >
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="40" image={prod1} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -54,7 +54,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod6} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -76,7 +76,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod8} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -97,8 +97,8 @@ export default function MakeUpCosmetic() {
             </Typography>
           </CardContent>
         </Card>
-        
-        <Card sx={{ maxWidth: 200 }}>
+
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod9} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -120,7 +120,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod10} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -145,7 +145,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod11} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -170,7 +170,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod12} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -192,7 +192,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod13} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -214,7 +214,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod14} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -236,7 +236,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod15} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -258,7 +258,7 @@ export default function MakeUpCosmetic() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod16} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">

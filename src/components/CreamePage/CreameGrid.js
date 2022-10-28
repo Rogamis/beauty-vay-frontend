@@ -18,7 +18,7 @@ import prod17 from "../../images/products/prod17.jpg";
 
 export default function CreameGrid() {
   return (
-    <Box sx={{ margin: 18 }}>
+    <Box sx={{ margin: 5 }}>
       <Grid
         container
         direction="raw"
@@ -26,7 +26,7 @@ export default function CreameGrid() {
         alignItems="center"
         alignContent="stretch"
       >
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="40" image={prod1} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -48,7 +48,7 @@ export default function CreameGrid() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod2} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -72,7 +72,7 @@ export default function CreameGrid() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod5} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -97,7 +97,7 @@ export default function CreameGrid() {
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 250 }}>
           <CardMedia component="img" height="240" image={prod7} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
